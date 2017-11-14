@@ -1,0 +1,36 @@
+{
+    "name": "cycada",
+    "homepage": "https://github.com/khrome/cycada",
+    "version": "0.0.1",
+    "main": "cycada.js",
+    "scripts": {
+        "test": " ./node_modules/mocha/bin/mocha"
+    },
+    "description": "CYC 4 for node.js",
+    "keywords": [
+    ],
+    "author": "Abbey Hawk Sparrow <@khrome> (http://patternweaver.com)",
+    "contributors": [],
+    "bugs": {
+        "url": "https://github.com/khrome/cycada/issues"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/khrome/cycada.git"
+    },
+    "dependencies": {
+        "lodash": "*",
+        "xml2js": "*",
+        "request": "*",
+        "async-objects": "*",
+        "xmldom": "*"
+    },
+    "devDependencies": {
+        "mocha": "*",
+        "should": "*"
+    },
+    "engines": {
+        "node": "*"
+    }
+}
