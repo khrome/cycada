@@ -10,7 +10,7 @@ Usage
 
 require the library
 
-    var CycServer = require('cyclops');
+    var CycServer = require('cycada');
 
 make a connection
 
