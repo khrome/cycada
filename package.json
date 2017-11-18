@@ -1,12 +1,16 @@
 {
     "name": "cycada",
     "homepage": "https://github.com/khrome/cycada",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "main": "cycada.js",
     "scripts": {
-        "test": " ./node_modules/mocha/bin/mocha"
+        "postinstall": "cd scripts; ./download.sh",
+        "service-start": "cd scripts; ./run-opencyc-service.sh",
+        "service-stop": "cd scripts; ./stop-opencyc-service.sh",
+        "start": "cd scripts; ./run-opencyc.sh",
+        "stop": "cd scripts; ./stop-opencyc.sh"
     },
-    "description": "CYC 4 for node.js",
+    "description": "OpenCYC 4 for node.js",
     "keywords": [
     ],
     "author": "Abbey Hawk Sparrow <@khrome> (http://patternweaver.com)",
