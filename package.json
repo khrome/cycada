@@ -1,7 +1,7 @@
 {
     "name": "cycada",
     "homepage": "https://github.com/khrome/cycada",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "main": "cycada.js",
     "scripts": {
         "postinstall": "cd scripts; ./download.sh",

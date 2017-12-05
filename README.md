@@ -3,15 +3,15 @@ Cycada
 
 CYC 4 queries in node.js on localhost or remote.
 
-Currently experimental
+Currently experimental and slow enough it's not a good choice for client interactive code paths.
 
 Installation
 ------------
-Running opencyc 4.0 require Java already be installed on your system, it will be downloaded and unpacked on npm `postinstall`
 
-Should you need to initiate this manually within the module, execute:
+    npm install cycada
 
-    ./download.sh
+Running opencyc 4.0 requires Java already be installed on your system. The OpenCYC binary will be downloaded and unpacked on npm `postinstall` but it will not execute without an existing java install on your system.
+
 
 Running
 -------
@@ -61,6 +61,14 @@ perform a query [TBD - I don't currently need it, contact me if you do]
     cyc.infer('<query>', function(err, results){
 
     });
+
+Roadmap
+-------
+
+- Finish inferences
+- Investigate supporting [proprietary CYC](http://dev.cyc.com)
+- Keystore based caching
+- Investigate supporting [UMBEL](https://en.wikipedia.org/wiki/UMBEL)
 
 Enjoy,
 
