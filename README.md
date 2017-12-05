@@ -10,7 +10,7 @@ Installation
 
     npm install cycada
 
-Running opencyc 4.0 requires Java already be installed on your system. The OpenCYC binary will be downloaded and unpacked on npm `postinstall` but it will not execute without an existing java install on your system.
+Running opencyc 4.0 requires Java already be installed on your system. The OpenCYC binary will be downloaded and unpacked on npm `postinstall`.
 
 
 Running
